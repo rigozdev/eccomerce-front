@@ -7,7 +7,7 @@ import { Container, Grid, Typography } from "@mui/material";
 function Hero() {
   return (
     <div className="hero">
-      <Container>
+      <Container sx={{ backgroundColor: "red" }}>
         <Grid container>
           <Grid
             sx={{
